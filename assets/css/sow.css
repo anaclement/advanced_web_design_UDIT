@@ -3,6 +3,10 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+main {
+  background-color: none;
+}
+
 /* top menu */
 nav {
   position: fixed;
@@ -62,8 +66,7 @@ nav ul li a:focus {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: #1f1d11;
+  color: #2b2717;
   cursor: url(../img/imagen\ cursor.png), auto;
 }
 
@@ -113,7 +116,7 @@ body {
   margin-right: 4rem;
   padding: 3rem;
   color: #2b2717;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .intro-box p {
