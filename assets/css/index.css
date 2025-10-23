@@ -1,2 +1,4 @@
-@import url("http://meyerweb.com/eric/tools/css/reset/reset.css"); /* CSS Reset for browser compatibility */
+/*the barrel pattern: one entry point for all css files*/
+@import url("reset.css"); /* CSS Reset for browser compatibility */
+@import url("types.css");
 @import url("style.css"); /* Main styles */
